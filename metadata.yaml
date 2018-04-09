@@ -53,6 +53,7 @@ missions:
   description: Map business operations to a remote procedure call endpoint over HTTP using a REST framework
   metadata:
     level: foundational
+    suggested: true
 - id: rest-http-secured
   name: Secured
   description: Expands on REST API Level 0 to secure the REST endpoint using Red Hat SSO which adds security to your applications while centralizing the security configuration
@@ -79,6 +80,8 @@ runtimes:
   versions:
   - id: 2.21.0-community
     name: 2.21.0 (Community)
+    metadata:
+      suggested: true
   - id: 7.0.0-redhat
     name: 7.0.0 (Red Hat Fuse)
 - id: nodejs
@@ -98,6 +101,7 @@ runtimes:
     d='M286.351 291.597l-42.177-24.333a5.084 5.084 0 0 0-1.861-.633l.84-1.53L290 292.218v.639l-1.158 1.979c-.347-1.348-1.263-2.528-2.491-3.239'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E
   metadata:
     pipelinePlatform: node
+    requisite: true
   versions:
   - id: v8-community
     name: 8.x (Community)
