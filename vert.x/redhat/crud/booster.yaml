@@ -1,4 +1,9 @@
 metadata:
+  openshift:
+    namespaceLabels:
+      foo: true
+      bar: 42
+      baz: "wow"
   runsOn: 
     - '!starter'
     - '!osio'
